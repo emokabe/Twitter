@@ -18,6 +18,8 @@
 		6AD2790620BCC0380085BC29 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD2790520BCC0380085BC29 /* LoginViewController.m */; };
 		6AD2790920BCC04D0085BC29 /* TimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD2790820BCC04D0085BC29 /* TimelineViewController.m */; };
 		BE19658E286138C600539B03 /* ComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE19658D286138C600539B03 /* ComposeViewController.m */; };
+		BE1965912862218E00539B03 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1965902862218E00539B03 /* User.m */; };
+		BE196594286223FD00539B03 /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = BE196593286223FD00539B03 /* Tweet.m */; };
 		BEA0CF6828612CBA00F90B1C /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEA0CF6728612CBA00F90B1C /* Keys.plist */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +45,10 @@
 		75895B6507775E8AFBEEA2D9 /* Pods-twitter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-twitter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-twitter/Pods-twitter.debug.xcconfig"; sourceTree = "<group>"; };
 		BE19658C286138C600539B03 /* ComposeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComposeViewController.h; sourceTree = "<group>"; };
 		BE19658D286138C600539B03 /* ComposeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComposeViewController.m; sourceTree = "<group>"; };
+		BE19658F2862218E00539B03 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		BE1965902862218E00539B03 /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		BE196592286223FD00539B03 /* Tweet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
+		BE196593286223FD00539B03 /* Tweet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tweet.m; sourceTree = "<group>"; };
 		BEA0CF6728612CBA00F90B1C /* Keys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Keys.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,6 +123,10 @@
 		6AD278F820BCBC140085BC29 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BE19658F2862218E00539B03 /* User.h */,
+				BE1965902862218E00539B03 /* User.m */,
+				BE196592286223FD00539B03 /* Tweet.h */,
+				BE196593286223FD00539B03 /* Tweet.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -243,6 +253,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE196594286223FD00539B03 /* Tweet.m in Sources */,
+				BE1965912862218E00539B03 /* User.m in Sources */,
 				6AD278F320BCA6020085BC29 /* BDBOAuth1SessionManager+SFAuthenticationSession.m in Sources */,
 				6AD278E820BC4B970085BC29 /* main.m in Sources */,
 				6AD2790620BCC0380085BC29 /* LoginViewController.m in Sources */,
